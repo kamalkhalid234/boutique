@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exercice-1.css">
+</head>
+<body>
+    <div class="old">
+          <h1 class="col-1"> exercice--1</h1>
+    </div>
+    <div class="old-2">
+         <p>Écrivez un programme pour vérifier si un alphabet saisi dans une zone de texte est une
+            voyelle ou une consonne</p>
+    </div>
+    <div class="kio">
+         <input type="text"  value="" id="pol"><br>
+         <button onclick="col()">clik</button>
+         <h1 id="kamal"></h1>
+    </div>
+    
+
+
+
+    <script>
+         
+     function col(){
+        let pol = document.getElementById("pol").value.toLowerCase();
+        let affich =document.getElementById("kamal");
+         if (pol === "a" || pol === "e" || pol === "i" || pol === "o" || pol === "u" || pol === "y" ) {
+             kamal.innerHTML +="La lettre " + pol + " est une voyelle.";
+         }
+
+         else {
+             kamal.innerHTML+="La lettre " + pol + " est une consonne.";
+          }}
+    </script>
+</body>
+</html>

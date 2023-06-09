@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="alphabet">Entrez un alphabet :</label>
+	<input type="text" id="alphabet" name="alphabet">
+	<button onclick="verifier()">Vérifier</button>
+	<p id="resultat"></p>
+    <script>
+        function verifier() {
+			var alphabet = document.getElementById("alphabet").value.toLowerCase();
+			if (alphabet == "a" || alphabet == "e" || alphabet == "i" || alphabet == "o" || alphabet == "u") {
+				document.getElementById("resultat").innerHTML = alphabet + " est une voyelle.";
+			} else {
+				document.getElementById("resultat").innerHTML = alphabet + " est une consonne.";
+			}
+		}
+    </script>
+</body>
+</html>

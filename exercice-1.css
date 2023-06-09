@@ -1,0 +1,64 @@
+body{
+    background-color: aqua;
+}
+.kio{
+    height: 60vh;
+    border: 10px solid black;
+    background-color: blue;
+    width: 90%;
+    margin-left: 5%;
+    display: table;
+    
+}
+
+#pol{
+    font-size: 50px;
+    text-align: center;
+    width: 80%;
+    height: 10vh;
+    margin-left:10%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    border: 6px solid rgb(246, 8, 8);
+  
+}
+#pol:hover{
+    background-color: rgba(255, 242, 0, 0.812);
+}
+button{
+    padding: 10px 100px;
+    margin: 10px;
+    margin-left: 35%;
+    box-shadow:5px 5px 2px 2px rgb(235, 16, 16);
+    font-size: 20px;
+
+}
+#kamal{
+     margin: 10px;
+    font-size: 30px;
+    color: #fff;
+    border: 10px solid rgb(220, 214, 214);
+    background-color: rgba(245, 12, 12, 0.7);
+    height: 40%;
+    text-align: center;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.col-1{
+     color: #fff;
+    background-color: #f24d4d;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(230, 12, 12);
+}
+.old-2{
+    width: 60%;
+    margin-left: 20%;
+    background-color: #e71d07;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
